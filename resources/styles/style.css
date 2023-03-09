@@ -2,7 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Roboto';
+    font-size: 14px;
 }
 
 header {
@@ -80,7 +81,7 @@ icon-category>li {
 
 .icon-category {
     display: flex;
-    gap: 3px;
+    gap: 4px;
     align-items: center;
 }
 
