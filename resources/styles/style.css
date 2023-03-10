@@ -89,6 +89,11 @@ icon-category>li {
     align-items: center;
 }
 
+.icon-category>li::after {
+    content: url("/resources/icons/category.svg");
+    margin-left: 3px;
+}
+
 .section-1 {
     display: flex;
     flex-direction: column;
@@ -242,13 +247,22 @@ icon-category>li {
 
 .card-2-body {
     display: flex;
-    padding: 18px;
     flex-direction: column;
     gap: 15px;
 }
 
+.card-2-body>hr {
+    border: 1px solid #EBEBEB;
+    opacity: 0.6;
+}
+
+.card-2-body-p {
+    padding: 20px 40px 0 40px
+}
+
 .card-2-data {
     display: flex;
+    padding: 0 40px 0 40px;
     justify-content: space-between;
 }
 
@@ -259,14 +273,13 @@ icon-category>li {
     flex-grow: 1;
     flex-shrink: 1;
     align-items: center;
-    border-bottom: 1px solid #EBEBEB;
     padding: 15px 0 15px 0;
 }
 
 .card-2-footer {
     display: flex;
     justify-content: end;
-    padding: 15px 0 15px 0;
+    padding: 15px 40px 15px 40px;
 }
 
 .main-button {
